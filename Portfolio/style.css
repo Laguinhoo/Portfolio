@@ -38,8 +38,6 @@
 
 }
 
-
-
 #nav{
     display: flex;
     align-content: center;
@@ -145,4 +143,40 @@
     height: calc(100vh - 35px);
     width: 100%;
     background-color: #E1EBE2;
+}
+
+#projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#proj1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#proj2{
+    grid-column:2;
+    grid-row: 1;
+}
+
+#proj3{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#proj4{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#proj5{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#proj5{
+    grid-column: 3;
+    grid-row: 2;
 }
