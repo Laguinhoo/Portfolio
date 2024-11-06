@@ -6,16 +6,17 @@
 
 body{
     background-color: aliceblue;
-    font-size: 2em;
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
+    column-count: 4;
 }
 
 .tipo1{
     margin: 80px;
     padding: 10px;
-    height: 130px;
-    width: 340px;
+    height: 100px;
+    width: 420px;
     background-color: gray;
     border-radius:4px
 }
@@ -32,12 +33,31 @@ body{
 .tipo3{
     margin: 80px;
     padding: 10px;
-    height: 180px;
-    width: 350px;
+    height: 140px;
+    width: 450px;
     background-color: gray;
     border-radius: 4px;
     text-align: center;
     font-size: 2em;
+}
+
+.tipo4{
+    margin: 80px;
+    padding: 10px;
+    height: 110px;
+    width: 350px;
+    background-color: gray;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#lblIdadeResult{
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 10px;
 }
 
 #btnContainer > button{

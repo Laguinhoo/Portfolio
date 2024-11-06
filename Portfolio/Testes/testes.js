@@ -53,3 +53,36 @@ btnRandom.onclick = function(){
 
     lblContador.textContent = randomNum
 }
+
+
+const lblIdadeResult = document.getElementById('lblIdadeResult')
+const txtIdade = document.getElementById('txtIdade')
+const btnIdade = document.getElementById('btnIdade')
+
+let idade = 0
+
+btnIdade.onclick = function()
+{
+    idade = txtIdade.value
+    idade = Number(idade)
+
+    if(idade >=100){
+        lblIdadeResult.textContent = "Você é definitivamente velho demais para estar usando esse site"
+    }
+
+    else if(idade == 0){
+        lblIdadeResult.textContent = 'Você deve estar mentindo, tipo, n tem como alguem que nasceu agora estar mexendo em um navegador'
+    }
+
+    else if(idade >= 18){
+        lblIdadeResult.textContent = 'Você é velho o suficiente para dirigir'
+    }
+
+    else if(idade < 0){
+        lblIdadeResult.textContent = 'Não é assim que a banda toca dog'
+    }
+
+    else{
+        lblIdadeResult.textContent = 'Receba'
+    }
+}
